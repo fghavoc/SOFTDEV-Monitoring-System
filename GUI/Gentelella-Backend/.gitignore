@@ -1,7 +1,0 @@
-.env
-.idea
-.wttd
-*.sqlite3
-__pycache__
-.vagrant/machines/
-staticfiles/
