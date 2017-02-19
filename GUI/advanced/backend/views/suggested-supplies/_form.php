@@ -12,7 +12,7 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'disaster_type')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'disaster_type')->dropDownList(['Earthquake' => 'Earthquake', 'Flood' => 'Flood','Low Pressure Area' => 'Low Pressure Area', 'Tropical Depression' => 'Tropical Depression', 'Typhoon' => 'Typhoon','Volcanic' => 'Volcanic', 'Wind' =>'Wind', 'Other' => 'Other',], ['prompt' => '==Select==']) ?>
 
     <?= $form->field($model, 'equipment_name')->textInput(['maxlength' => true]) ?>
 
