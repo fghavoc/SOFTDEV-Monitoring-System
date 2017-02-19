@@ -7,37 +7,29 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
-$this->title = 'Sign up';
-//$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Signup';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
+<div class="site-signup">
+    <h1><?= Html::encode($this->title) ?></h1>
 
-<table class="tb" border="1" align="center"> 
-<div class="site-signup" >
-<tr><td>
-<h1 align="center"><?= Html::encode($this->title) ?></h1>
+    <p>Please fill out the following fields to signup:</p>
 
-	<p align="center">Please fill out the following fields to sign up:</p>
-
-    <div class="row" >
-       <div class="form"><Center>
-		
+    <div class="row">
+        <div class="col-lg-5">
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
-	
+
                 <?= $form->field($model, 'email') ?>
 
                 <?= $form->field($model, 'password')->passwordInput() ?>
 
                 <div class="form-group">
-                    <?= Html::submitButton('Sign up', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
-                </div> 
-				
+                    <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
+                </div>
 
             <?php ActiveForm::end(); ?>
         </div>
-    </div></center>	
-	</td></tr></table>
-	
-	
+    </div>
 </div>
