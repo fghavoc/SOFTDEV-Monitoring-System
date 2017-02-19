@@ -1,7 +1,6 @@
 html,
 body {
     height: 100%;
-	background:  #B2B2D9;
 }
 
 .wrap {
@@ -109,5 +108,4 @@ a.desc:after {
 
 .nav > li > form > button:hover {
     text-decoration: none;
-	
 }
