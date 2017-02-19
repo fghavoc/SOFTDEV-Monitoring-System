@@ -6,7 +6,20 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => '6tYJVcqhChC_wBlGa2rSQB9Nb1mYbmnd',
         ],
+   'view' => [
+         'theme' => [
+             'pathMap' => [
+                '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+             ],
+         ],
     ],
+    'assetManager' => [
+        'bundles' => [
+            'dmstr\web\AdminLteAsset' => [
+                'skin' => 'skin-blue',
+            ],
+        ],
+    ], ],
 ];
 
 if (!YII_ENV_TEST) {
