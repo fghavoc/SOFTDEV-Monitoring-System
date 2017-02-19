@@ -31,8 +31,10 @@ class Ndrrmc extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['email', 'username', 'password', 'contact'], 'required'],
+            [['id', 'email', 'username', 'password', 'contact'], 'required'],
+            [['id'], 'integer'],
             [['email', 'username', 'password', 'contact'], 'string', 'max' => 45],
+            [['id'], 'unique'],
         ];
     }
 

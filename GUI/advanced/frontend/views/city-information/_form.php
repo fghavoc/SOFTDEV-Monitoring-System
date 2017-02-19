@@ -12,13 +12,15 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
+    <?= $form->field($model, 'id')->textInput() ?>
+
     <?= $form->field($model, 'region_name')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'city_name')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'no_of_brgy')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'lgu_id')->textInput() ?>
+    <?= $form->field($model, 'user_id')->textInput() ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

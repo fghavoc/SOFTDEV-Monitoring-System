@@ -14,7 +14,6 @@ use Yii;
  * @property integer $ndrrmc_id
  *
  * @property Ndrrmc $ndrrmc
- * @property Lgu[] $lgus
  */
 class Advisory extends \yii\db\ActiveRecord
 {
@@ -32,9 +31,10 @@ class Advisory extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['date', 'subject', 'disaster_category', 'ndrrmc_id'], 'required'],
-            [['ndrrmc_id'], 'integer'],
+            [['id', 'date', 'subject', 'disaster_category', 'ndrrmc_id'], 'required'],
+            [['id', 'ndrrmc_id'], 'integer'],
             [['date', 'subject', 'disaster_category'], 'string', 'max' => 45],
+            [['id'], 'unique'],
             [['ndrrmc_id'], 'exist', 'skipOnError' => true, 'targetClass' => Ndrrmc::className(), 'targetAttribute' => ['ndrrmc_id' => 'id']],
         ];
     }
@@ -59,13 +59,5 @@ class Advisory extends \yii\db\ActiveRecord
     public function getNdrrmc()
     {
         return $this->hasOne(Ndrrmc::className(), ['id' => 'ndrrmc_id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getLgus()
-    {
-        return $this->hasMany(Lgu::className(), ['advisory_id' => 'id']);
     }
 }
