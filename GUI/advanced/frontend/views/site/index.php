@@ -46,7 +46,7 @@ $this->title = 'Dashboard';
           <!-- AREA CHART -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Area Chart</h3>
+              <h3 class="box-title">Frequency of Disasters from 2004 - 2013</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -55,9 +55,7 @@ $this->title = 'Dashboard';
               </div>
             </div>
             <div class="box-body">
-              <div class="chart">
-                <canvas id="areaChart" style="height:250px"></canvas>
-              </div>
+<img src="<?= yii\helpers\Url::to('@web/img/chart4.png') ?>" height="400" width="500" />
             </div>
             <!-- /.box-body -->
           </div>
@@ -66,7 +64,7 @@ $this->title = 'Dashboard';
           <!-- DONUT CHART -->
           <div class="box box-danger">
             <div class="box-header with-border">
-              <h3 class="box-title">Donut Chart</h3>
+              <h3 class="box-title">Top 5 Disasters by Affected Population</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -75,7 +73,7 @@ $this->title = 'Dashboard';
               </div>
             </div>
             <div class="box-body">
-              <canvas id="pieChart" style="height:250px"></canvas>
+<img src="<?= yii\helpers\Url::to('@web/img/chart2.png') ?>" height="400" width="500" />
             </div>
             <!-- /.box-body -->
           </div>
@@ -87,7 +85,7 @@ $this->title = 'Dashboard';
           <!-- LINE CHART -->
           <div class="box box-info">
             <div class="box-header with-border">
-              <h3 class="box-title">Line Chart</h3>
+              <h3 class="box-title">Families by Region</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -97,7 +95,7 @@ $this->title = 'Dashboard';
             </div>
             <div class="box-body">
               <div class="chart">
-                <canvas id="lineChart" style="height:250px"></canvas>
+<img src="<?= yii\helpers\Url::to('@web/img/chart3.png') ?>" height="400" width="500" />
               </div>
             </div>
             <!-- /.box-body -->
@@ -107,7 +105,7 @@ $this->title = 'Dashboard';
           <!-- BAR CHART -->
           <div class="box box-success">
             <div class="box-header with-border">
-              <h3 class="box-title">Bar Chart</h3>
+              <h3 class="box-title">Top 5 Disaster by Frequency</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -117,7 +115,7 @@ $this->title = 'Dashboard';
             </div>
             <div class="box-body">
               <div class="chart">
-                <canvas id="barChart" style="height:230px"></canvas>
+<img src="<?= yii\helpers\Url::to('@web/img/chart1.png') ?>" height="400" width="500" />
               </div>
             </div>
             <!-- /.box-body -->
