@@ -23,11 +23,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'destination') ?>
 
-    <?= $form->field($model, 'lgu_id') ?>
-
-    <?php // echo $form->field($model, 'lgu_advisory_id') ?>
-
-    <?php // echo $form->field($model, 'suggested_supplies_id') ?>
+    <?= $form->field($model, 'suggested_supplies_id') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

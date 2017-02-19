@@ -11,9 +11,9 @@ use Yii;
  * @property string $region_name
  * @property string $city_name
  * @property string $no_of_brgy
- * @property integer $lgu_id
+ * @property integer $user_id
  *
- * @property Lgu $lgu
+ * @property User $user
  * @property CityQuestionnaire[] $cityQuestionnaires
  */
 class CityInformation extends \yii\db\ActiveRecord
@@ -32,10 +32,11 @@ class CityInformation extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['region_name', 'city_name', 'no_of_brgy', 'lgu_id'], 'required'],
-            [['lgu_id'], 'integer'],
+            [['id', 'region_name', 'city_name', 'no_of_brgy', 'user_id'], 'required'],
+            [['id', 'user_id'], 'integer'],
             [['region_name', 'city_name', 'no_of_brgy'], 'string', 'max' => 45],
-            [['lgu_id'], 'exist', 'skipOnError' => true, 'targetClass' => Lgu::className(), 'targetAttribute' => ['lgu_id' => 'id']],
+            [['id'], 'unique'],
+            [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
         ];
     }
 
@@ -49,16 +50,16 @@ class CityInformation extends \yii\db\ActiveRecord
             'region_name' => 'Region Name',
             'city_name' => 'City Name',
             'no_of_brgy' => 'No Of Brgy',
-            'lgu_id' => 'Lgu ID',
+            'user_id' => 'User ID',
         ];
     }
 
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getLgu()
+    public function getUser()
     {
-        return $this->hasOne(Lgu::className(), ['id' => 'lgu_id']);
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 
     /**
