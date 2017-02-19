@@ -28,9 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'requested_supplies',
             'quantity',
             'destination',
-            'lgu_id',
-            // 'lgu_advisory_id',
-            // 'suggested_supplies_id',
+            'suggested_supplies_id',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

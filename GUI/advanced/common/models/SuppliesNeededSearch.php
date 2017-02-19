@@ -18,7 +18,7 @@ class SuppliesNeededSearch extends SuppliesNeeded
     public function rules()
     {
         return [
-            [['id', 'lgu_id', 'lgu_advisory_id', 'suggested_supplies_id'], 'integer'],
+            [['id', 'suggested_supplies_id'], 'integer'],
             [['requested_supplies', 'quantity', 'destination'], 'safe'],
         ];
     }
@@ -60,8 +60,6 @@ class SuppliesNeededSearch extends SuppliesNeeded
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'lgu_id' => $this->lgu_id,
-            'lgu_advisory_id' => $this->lgu_advisory_id,
             'suggested_supplies_id' => $this->suggested_supplies_id,
         ]);
 

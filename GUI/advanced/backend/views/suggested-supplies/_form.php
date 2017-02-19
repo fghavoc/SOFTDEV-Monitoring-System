@@ -12,6 +12,8 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
+    <?= $form->field($model, 'id')->textInput() ?>
+
     <?= $form->field($model, 'disaster_type')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'equipment_name')->textInput(['maxlength' => true]) ?>

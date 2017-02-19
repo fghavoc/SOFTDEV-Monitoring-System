@@ -29,9 +29,10 @@ class CityQuestionnaire extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['question', 'city_information_id'], 'required'],
-            [['city_information_id'], 'integer'],
+            [['id', 'question', 'city_information_id'], 'required'],
+            [['id', 'city_information_id'], 'integer'],
             [['question'], 'string', 'max' => 100],
+            [['id'], 'unique'],
             [['city_information_id'], 'exist', 'skipOnError' => true, 'targetClass' => CityInformation::className(), 'targetAttribute' => ['city_information_id' => 'id']],
         ];
     }

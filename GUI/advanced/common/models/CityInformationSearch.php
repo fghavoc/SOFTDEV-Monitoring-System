@@ -18,7 +18,7 @@ class CityInformationSearch extends CityInformation
     public function rules()
     {
         return [
-            [['id', 'lgu_id'], 'integer'],
+            [['id', 'user_id'], 'integer'],
             [['region_name', 'city_name', 'no_of_brgy'], 'safe'],
         ];
     }
@@ -60,7 +60,7 @@ class CityInformationSearch extends CityInformation
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'lgu_id' => $this->lgu_id,
+            'user_id' => $this->user_id,
         ]);
 
         $query->andFilterWhere(['like', 'region_name', $this->region_name])
