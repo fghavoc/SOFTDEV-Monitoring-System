@@ -29,8 +29,6 @@ class SuggestedSupplies extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id'], 'required'],
-            [['id'], 'integer'],
             [['disaster_type', 'equipment_name'], 'string', 'max' => 45],
         ];
     }

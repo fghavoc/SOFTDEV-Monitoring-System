@@ -31,10 +31,9 @@ class SuppliesNeeded extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'suggested_supplies_id'], 'required'],
-            [['id', 'suggested_supplies_id'], 'integer'],
+            [['suggested_supplies_id'], 'required'],
+            [['suggested_supplies_id'], 'integer'],
             [['requested_supplies', 'quantity', 'destination'], 'string', 'max' => 45],
-            [['id'], 'unique'],
             [['suggested_supplies_id'], 'exist', 'skipOnError' => true, 'targetClass' => SuggestedSupplies::className(), 'targetAttribute' => ['suggested_supplies_id' => 'id']],
         ];
     }

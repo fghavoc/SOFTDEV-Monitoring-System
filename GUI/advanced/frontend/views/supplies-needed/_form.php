@@ -18,10 +18,6 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'destination')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'lgu_id')->textInput() ?>
-
-    <?= $form->field($model, 'lgu_advisory_id')->textInput() ?>
-
     <?= $form->field($model, 'suggested_supplies_id')->textInput() ?>
 
     <div class="form-group">
