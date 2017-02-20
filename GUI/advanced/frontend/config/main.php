@@ -28,6 +28,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+
+        'view' => [
+         'theme' => [
+             'pathMap' => [
+                '@app/views' => '@frontend/views/adminlte/yii2-app'
+             ],
+         ],
+    ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

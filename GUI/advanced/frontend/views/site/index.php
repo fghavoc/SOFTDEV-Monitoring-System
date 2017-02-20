@@ -55,7 +55,7 @@ $this->title = 'Dashboard';
               </div>
             </div>
             <div class="box-body">
-<img src="<?= yii\helpers\Url::to('@web/img/chart4.png') ?>" height="400" width="500" />
+<img src="<?= yii\helpers\Url::to('@web/img/chart5.png') ?>" height="400" width="500" />
             </div>
             <!-- /.box-body -->
           </div>
@@ -73,7 +73,7 @@ $this->title = 'Dashboard';
               </div>
             </div>
             <div class="box-body">
-<img src="<?= yii\helpers\Url::to('@web/img/chart2.png') ?>" height="400" width="500" />
+<img src="<?= yii\helpers\Url::to('@web/img/chart7.png') ?>" height="400" width="500" />
             </div>
             <!-- /.box-body -->
           </div>
@@ -85,7 +85,7 @@ $this->title = 'Dashboard';
           <!-- LINE CHART -->
           <div class="box box-info">
             <div class="box-header with-border">
-              <h3 class="box-title">Families by Region</h3>
+              <h3 class="box-title">Families by Barangay</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -95,7 +95,7 @@ $this->title = 'Dashboard';
             </div>
             <div class="box-body">
               <div class="chart">
-<img src="<?= yii\helpers\Url::to('@web/img/chart3.png') ?>" height="400" width="500" />
+<img src="<?= yii\helpers\Url::to('@web/img/chart6.png') ?>" height="400" width="500" />
               </div>
             </div>
             <!-- /.box-body -->
