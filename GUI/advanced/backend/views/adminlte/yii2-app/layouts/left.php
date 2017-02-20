@@ -30,8 +30,11 @@
             [
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
-                    ['label' => 'Dashboard', 'icon' => 'fa fa-file-code-o', 'url' => ['index']],
-                    ['label' => 'Give Advisory', 'icon' => 'fa fa-dashboard', 'url' => ['supplies-needed/index']],
+                    ['label' => 'Dashboard', 'url' => ['index']],
+                    ['label' => 'Create Advisory', 'url' => ['advisory/create']],
+                    ['label' => 'List of Advisories', 'url' => ['advisory/index']],
+                    ['label' => 'Create Suggested Supplies', 'url' => ['suggested-supplies/create']],
+                    ['label' => 'List of Suggested Supplies', 'url' => ['suggested-supplies/index']],
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                     /*[
                         'label' => 'Same tools',
