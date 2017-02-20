@@ -12,7 +12,6 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="supplies-needed-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
         <?= Html::a('Update', ['update', 'id' => $model->id, 'suggested_supplies_id' => $model->suggested_supplies_id], ['class' => 'btn btn-primary']) ?>
