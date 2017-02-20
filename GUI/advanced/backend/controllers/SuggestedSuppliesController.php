@@ -6,6 +6,9 @@ use Yii;
 use common\models\SuggestedSupplies;
 use common\models\SuggestedSuppliesSearch;
 use yii\web\Controller;
+use common\models\SuppliesNeeded;
+use yii\common\models;
+use app\base\Model;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
@@ -64,12 +67,15 @@ class SuggestedSuppliesController extends Controller
     public function actionCreate()
     {
         $model = new SuggestedSupplies();
+        $modelsSuppliesNeeded = [new SuppliesNeeded];
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
+                'modelsSuppliesNeeded' => (empty($modelsSuppliesNeeded)) ? [new SuppliesNeeded] : $modelsSuppliesNeeded
+      
             ]);
         }
     }
