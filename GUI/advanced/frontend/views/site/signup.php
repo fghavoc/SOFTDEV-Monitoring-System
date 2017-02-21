@@ -8,7 +8,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
 $this->title = 'Register Account';
-$this->params['breadcrumbs'][] = $this->title;
+// $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-LGUsignup"><center>
     <!-- <h1><?= Html::encode($this->title) ?></h1> -->
@@ -17,9 +17,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <body class="hold-transition register-page">
 <div class="register-box">
-<!--   <div class="register-logo">
-    <a href="">Loyola Student Center</a>
-  </div> -->
+  <div class="register-logo">
+    <a href="">Register LGU Account</a>
+  </div>
 
   <div class="register-box-body">
     <!-- <p class="login-box-msg">Register a new membership</p> -->
