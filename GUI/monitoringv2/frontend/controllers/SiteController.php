@@ -26,15 +26,15 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout', 'signup'],
+                'only' => ['signup','login', 'error','logout'],
                 'rules' => [
                     [
-                        'actions' => ['signup'],
+                        'actions' => ['signup','login', 'error'],
                         'allow' => true,
                         'roles' => ['?'],
                     ],
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['logout', 'index'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -215,8 +215,38 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionDeadMissing()
+    public function actionDeadmissing()
     {
         return $this->render('deadMissing');
+    }
+
+    public function actionLaworder()
+    {
+        return $this->render('lawOrder');
+    }
+
+    public function actionCamp()
+    {
+        return $this->render('camp');
+    }
+
+    public function actionFood()
+    {
+        return $this->render('food');
+    }
+
+    public function actionLogistics()
+    {
+        return $this->render('logistics');
+    }
+
+    public function actionInventory()
+    {
+        return $this->render('inventory');
+    }
+    
+    public function actionProcurement()
+    {
+        return $this->render('procurement');
     }
 }
