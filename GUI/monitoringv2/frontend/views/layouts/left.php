@@ -5,34 +5,25 @@
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
+                <img src="<?= $directoryAsset ?>/img/avatar3.png" class="img-circle" alt="User Image"/>
             </div>
             <div class="pull-left info">
-                <p>Alexander Pierce</p>
-
-                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            <?php echo
+                '<p>'.Yii::$app->user->identity->username.' <br>
+                <small>'.Yii::$app->user->identity->email.'</small>
+                </p>'
+            ?>
+            
             </div>
         </div>
-
-        <!-- search form -->
-        <form action="#" method="get" class="sidebar-form">
-            <div class="input-group">
-                <input type="text" name="q" class="form-control" placeholder="Search..."/>
-              <span class="input-group-btn">
-                <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i>
-                </button>
-              </span>
-            </div>
-        </form>
-        <!-- /.search form -->
 
         <?= dmstr\widgets\Menu::widget(
             [
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
-                    ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
+                    ['label' => 'Menu Monitoring System', 'options' => ['class' => 'header']],
                     ['label' => 'Law and Order', 'icon' => 'fa  fa-legal', 'url' => ['/site/laworder']],
-                    ['label' => 'Camp and Coordination', 'icon' => 'fa fa-home', 'url' => ['/site/camp']],
+                    ['label' => 'Camp Management', 'icon' => 'fa fa-home', 'url' => ['/site/camp']],
                     ['label' => 'Food and Non-Food', 'icon' => 'fa fa-cutlery', 'url' => ['/site/food']],
                     ['label' => 'Dead and Missing', 'icon' => 'fa fa-users', 'url' => ['/site/deadmissing']],
                     ['label' => 'Logistics', 'icon' => 'fa  fa-ambulance', 'url' => ['/site/logistics']],
@@ -40,17 +31,18 @@
                     ['label' => 'Procurement', 'icon' => 'fa  fa-money', 'url' => ['/site/procurement']],
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                     [
-                        'label' => 'Same tools',
+                        'label' => 'Options',
                         'icon' => 'fa fa-share',
                         'url' => '#',
                         'items' => [
                             ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii'],],
                             ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug'],],
                             [
-                                'label' => 'Level One',
+                                'label' => 'Others',
                                 'icon' => 'fa fa-circle-o',
                                 'url' => '#',
                                 'items' => [
+                                    ['label' => 'Sign out', 'icon' => 'fa fa-circle-o', 'url' => '#',],
                                     ['label' => 'Level Two', 'icon' => 'fa fa-circle-o', 'url' => '#',],
                                     [
                                         'label' => 'Level Two',

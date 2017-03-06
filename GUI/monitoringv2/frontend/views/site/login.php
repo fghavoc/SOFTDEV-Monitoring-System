@@ -49,9 +49,14 @@ $fieldOptions2 = [
             </div>
             <!-- /.col -->
         </div>
+
             <div style="color:#999;margin:1em 0">
                    Register a new membership <?= Html::a('Sign Up here', ['signup']) ?>.
             </div>
+
+             <div style="color:#999;margin:1em 0">
+                    If you forgot your password you can <?= Html::a('reset it', ['site/request-password-reset']) ?>.
+                </div>
 
         <?php ActiveForm::end(); ?>
 
@@ -64,7 +69,7 @@ $fieldOptions2 = [
         </div>
         <!-- /.social-auth-links -->
 
-        <a href="#">I forgot my password</a><br>
+      <!--  <a href="#">I forgot my password</a><br>-->
         <!--<a href="register.html" class="text-center">Register a new membership</a>-->
 
     </div>

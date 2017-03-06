@@ -2,7 +2,14 @@ html,
 body {
     height: 100%;
 }
-
+.time{
+	margin-left: 720px;
+    margin-bottom: 20px;
+}
+.graph{
+    margin-left: 100px;
+    align-content: center;
+}
 .wrap {
     min-height: 100%;
     height: auto;

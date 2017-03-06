@@ -8,6 +8,7 @@ $this->title = 'Monitoring System';
 
     <div class="jumbotron">
         <h1>Congratulations!</h1>
+<iframe src="http://free.timeanddate.com/clock/i5m8m718/n145/tt0/tw0/tm1/ts1/ta1/tb4" frameborder="0" width="128" height="34"></iframe>
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 

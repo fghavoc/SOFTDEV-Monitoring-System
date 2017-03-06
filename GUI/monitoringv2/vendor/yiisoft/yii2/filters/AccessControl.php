@@ -13,6 +13,8 @@ use yii\base\ActionFilter;
 use yii\di\Instance;
 use yii\web\User;
 use yii\web\ForbiddenHttpException;
+use yii\web\Controller;
+use common\models\LoginForm;
 
 /**
  * AccessControl provides simple access control based on a set of rules.
@@ -149,6 +151,7 @@ class AccessControl extends ActionFilter
             $user->loginRequired();
         } else {
             throw new ForbiddenHttpException(Yii::t('yii', 'You are not allowed to perform this action.'));
+			
         }
     }
 }
