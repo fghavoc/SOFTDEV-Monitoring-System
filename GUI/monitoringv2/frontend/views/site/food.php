@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Law and Order';
+$this->title = 'Food and Non-Food';
 ?>
 
 <!DOCTYPE html>
@@ -58,7 +58,7 @@ $this->title = 'Law and Order';
           <div class="box-body" style="display: block;">
             <div class="row">
             <div class ="graph" align="center">
-          <iframe width="900" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiOTA3NmM5MDYtNWYyNy00YzhhLWExYzgtODNlOTdiNDg3NDNlIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+          <iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiOTA3NmM5MDYtNWYyNy00YzhhLWExYzgtODNlOTdiNDg3NDNlIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
            </div>
             </div>
           </div>
