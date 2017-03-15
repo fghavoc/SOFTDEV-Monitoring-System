@@ -64,7 +64,8 @@ $this->title = 'Camp Management';
           </div>
     </div>
     <!------>
-    <div style="width: 100%"><iframe width="100%" height="600" src="http://www.mapi.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/fr/mesurer-distance-surface-google-maps.html">google distance entre deux villes</a> en <a href="http://www.mapsdirections.info/fr/">www.mapsdirections.info/fr/</a></iframe></div><br />
+    <center>
+    <div style="width: 100%"><iframe width="100%" height="600" src="http://www.mapi.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/fr/mesurer-distance-surface-google-maps.html">google distance entre deux villes</a> en <a href="http://www.mapsdirections.info/fr/">www.mapsdirections.info/fr/</a></iframe></div></center><br />
   </section>
 
 
