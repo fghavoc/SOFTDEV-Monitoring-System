@@ -56,8 +56,8 @@
               <!-- /.box-header -->
             <div class="box-body" style="display: block;">
               <div class="row">
-              <div class ="graph" align="center">
-             <iframe width="00" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiYjU4OGUxZDEtZmEwZi00MGQ1LWIwMzctYjlkZTM0ZWVlYzAyIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+              <div align="center">
+             <iframe width="900" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiYjU4OGUxZDEtZmEwZi00MGQ1LWIwMzctYjlkZTM0ZWVlYzAyIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
              </div>
               </div>
             </div>
