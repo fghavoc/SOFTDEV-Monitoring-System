@@ -249,4 +249,8 @@ class SiteController extends Controller
     {
         return $this->render('procurement');
     }
+     public function actionReports()
+    {
+        return $this->render('reports');
+    }
 }
