@@ -22,11 +22,12 @@
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
                     ['label' => 'Menu Monitoring System', 'options' => ['class' => 'header']],
+                    ['label' => 'Reports', 'icon' => 'fa fa-users', 'url' => ['/site/reports']],
                     ['label' => 'Law and Order', 'icon' => 'fa  fa-legal', 'url' => ['/site/laworder']],
                     ['label' => 'Camp Management', 'icon' => 'fa fa-home', 'url' => ['/site/camp']],
                     ['label' => 'Food and Non-Food', 'icon' => 'fa fa-cutlery', 'url' => ['/site/food']],
                     ['label' => 'Dead and Missing', 'icon' => 'fa fa-users', 'url' => ['/site/deadmissing']],
-                    ['label' => 'Logistics', 'icon' => 'fa  fa-ambulance', 'url' => ['/site/logistics']],
+                    ['label' => 'Logistics', 'icon' => 'fa  fa-ambulance','url' => ['/site/logistics']],
                     ['label' => 'Inventory', 'icon' => 'fa fa-archive', 'url' => ['/site/inventory']],
                     ['label' => 'Procurement', 'icon' => 'fa  fa-money', 'url' => ['/site/procurement']],
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
