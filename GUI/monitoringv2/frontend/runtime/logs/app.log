@@ -39639,3 +39639,1085 @@ $_SERVER = [
     'REQUEST_TIME' => 1489652910
 >>>>>>> 4d62e2c0c8446507fc160b86142c1e0ebef44930
 ]
+2017-03-17 06:11:27 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:11:27 [::1][1][-][info][application] $_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61312'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727487.014
+    'REQUEST_TIME' => 1489727487
+]
+2017-03-17 06:11:42 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:11:42 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/reports'
+]
+
+$_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61329'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Freports'
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php?r=site%2Freports'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727502.427
+    'REQUEST_TIME' => 1489727502
+]
+2017-03-17 06:11:49 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:11:49 [::1][1][-][info][application] $_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php?r=site%2Freports'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61334'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727509.618
+    'REQUEST_TIME' => 1489727509
+]
+2017-03-17 06:12:47 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:12:47 [::1][1][-][info][application] $_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61349'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727567.095
+    'REQUEST_TIME' => 1489727567
+]
+2017-03-17 06:16:05 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:16:05 [::1][1][-][info][application] $_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61385'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727765.675
+    'REQUEST_TIME' => 1489727765
+]
+2017-03-17 06:16:24 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:16:24 [::1][1][-][info][application] $_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61398'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727784.745
+    'REQUEST_TIME' => 1489727784
+]
+2017-03-17 06:17:04 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:17:04 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/reports'
+]
+
+$_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61428'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Freports'
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php?r=site%2Freports'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727824.332
+    'REQUEST_TIME' => 1489727824
+]
+2017-03-17 06:17:36 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:17:36 [::1][1][-][info][application] $_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php?r=site%2Freports'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61434'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727856.682
+    'REQUEST_TIME' => 1489727856
+]
+2017-03-17 06:19:45 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:19:44 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/reports'
+]
+
+$_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Freports'
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php?r=site%2Freports'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727984.897
+    'REQUEST_TIME' => 1489727984
+]
+2017-03-17 06:19:53 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:19:53 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/reports'
+]
+
+$_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php?r=site%2Freports'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61465'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Freports'
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php?r=site%2Freports'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489727993.46
+    'REQUEST_TIME' => 1489727993
+]
+2017-03-17 06:20:11 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:20:11 [::1][1][-][info][application] $_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php?r=site%2Freports'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61471'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489728011.091
+    'REQUEST_TIME' => 1489728011
+]
+2017-03-17 06:27:37 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:27:37 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/laworder'
+]
+
+$_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61648'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flaworder'
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php?r=site%2Flaworder'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489728457.143
+    'REQUEST_TIME' => 1489728457
+]
+2017-03-17 06:27:43 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:27:43 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/procurement'
+]
+
+$_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php?r=site%2Flaworder'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61654'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fprocurement'
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php?r=site%2Fprocurement'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489728463.136
+    'REQUEST_TIME' => 1489728463
+]
+2017-03-17 06:43:14 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 17177 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-03-17 06:43:14 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/reports'
+]
+
+$_COOKIE = [
+    'Phpstorm-7a5eafae' => 'd3e9aa35-8921-4618-9992-f094e761e138'
+    '_identity' => 'effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC\",2592000]\";}'
+    'advanced-frontend' => 'skegvv33p4kbatgir3d94vt303'
+    '_csrf-frontend' => 'e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/others/monitoringv2/frontend/web/index.php?r=site%2Fprocurement'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-7a5eafae=d3e9aa35-8921-4618-9992-f094e761e138; _identity=effb1bc67829ac8dbcc6a12f771698d30ef39077bead5cfd0a6d0235243ee489a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22fzcvpLnh9LunUdTR8xLhxkJT8RjtAqEC%22%2C2592000%5D%22%3B%7D; advanced-frontend=skegvv33p4kbatgir3d94vt303; _csrf-frontend=e987000bf22abd86d54900d36e20d7a01a119ada74250b5010c05f890c0c3148a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22UJDOtC51FAycK53bWfJrZ5PInjw4Pdrr%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61784'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Freports'
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php?r=site%2Freports'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489729394.069
+    'REQUEST_TIME' => 1489729394
+]
+2017-03-17 06:43:49 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\header.php:67
+Stack trace:
+#0 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\header.php(67): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\Users\\Aira J...', 67, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Aira J...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\Aira J...', Array, NULL)
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\main.php(45): yii\base\View->render('header.php', Array)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Aira J...')
+#6 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Aira J...', Array)
+#7 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(393): yii\base\View->renderFile('C:\\Users\\Aira J...', Array, Object(frontend\controllers\SiteController))
+#8 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#9 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#10 [internal function]: frontend\controllers\SiteController->actionIndex()
+#11 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#14 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('', Array)
+#15 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2017-03-17 06:43:49 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61791'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489729429.333
+    'REQUEST_TIME' => 1489729429
+]
