@@ -2,55 +2,72 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Reports';
+$this->title = 'Report Assessment';
 ?>
 <div class="site-index">
-<div class="row">
 
- <div class="chart">
-           <center> <img src="http://i1360.photobucket.com/albums/r656/Gail_Haboc/drrmcadvisory_zpswheqxhww.png"height="800" width="650" />
-           </center>
+<div class="container" style="background-color:white; padding-left:3cm">
+
+<div class=".row">
+  <div class="col-md-3"><h4><strong> Inspector/ Groung Oficial </strong></h4></div>
+  <div class="col-md-7"><h4>SPO1 John dewey</h4></div>
 </div>
-<div class="box box-widget">
-            <div class="box-header with-border">
-              <div class="user-block">
-                <img class="img-circle" src="../dist/img/user1-128x128.jpg" alt="User Image">
-                <span class="username"><a href="#">Maica Belchez</a></span>
-                <span class="description">Law and Order - 7:30 PM Today</span>
-              </div>
-              <!-- /.user-block -->
-              <div class="box-tools">
-                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Mark as read">
-                  <i class="fa fa-circle-o"></i></button>
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <img class="img-responsive pad" src="../dist/img/photo2.png" alt="Photo">
 
-              <p>I took this photo this morning. What do you guys think?</p>
-              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
-              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
-              <span class="pull-right text-muted">127 likes - 3 comments</span>
-            </div>
-            <!-- /.box-body -->
-            
-            <!-- /.box-footer -->
-            <div class="box-footer">
-              <form action="#" method="post">
-                <img class="img-responsive img-circle img-sm" src="../dist/img/user4-128x128.jpg" alt="Alt Text">
-                <!-- .img-push is used to add margin to elements next to floating images -->
-                <div class="img-push">
-                  <input type="text" class="form-control input-sm" placeholder="Press enter to post comment">
-                </div>
-              </form>
-            </div>
-            <!-- /.box-footer -->
-          </div>
+
+<div class=".row">
+  <div class="col-md-3"><h4><strong> Headquarter </strong></h4></div>
+  <div class="col-md-7"><h4>Makati City</h4></div>
+</div>
+
+
+<div class=".row" >
+  <div class="col-md-3" ><h4><strong> Contact </strong></h4></div>
+  <div class="col-md-7"><h4>091234567 <br> jdewey@email.gov.ph </h4></div>
+</div>
+
+
+<div class=".row">
+  <div class="col-md-3"><h4><strong> Date and time Reported </strong></h4></div>
+  <div class="col-md-7"><h4>April 09, 2017, 12:52PM</h4></div>
+</div>
+
+
+<div class=".row">
+  <div class="col-md-3"><h4><strong> Incidents </strong></h4></div>
+  <div class="col-md-7"><h4>Earthquake <br> Down Power Lines</h4></div>
+</div>
+
+
+<div class=".row">
+  <div class="col-md-3"><h4><strong> Support Needed </strong></h4></div>
+  <div class="col-md-7"><h4>Search and Rescue Team</h4></div>
+</div>
+
+
+<div class=".row">
+  <div class="col-md-3"><h4><strong> Supply Needed </strong></h4></div>
+  <div class="col-md-7"><h4>Emergency Power Supply <br> Transportation Vehicles</h4></div>
+</div>
+
+
+<div class=".row">
+  <div class="col-md-3"><h4><strong> Site Description </strong></h4></div>
+  <div class="col-md-7"><h4>N/A</h4></div>
+</div>
+
+
+<div class=".row">
+  <div class="col-md-3"><h4><strong> Area of Effect </strong></h4></div>
+  <div class="col-md-7"><h4>Within city</h4></div>
+</div>
+
+
+<div class=".row">
+  <div class="col-md-3"><h4><strong> Image </strong></h4></div>
+  <div class="col-md-7"><h4>N/A</h4></div>
+</div>
+
+
 </div>
 </div>
 
