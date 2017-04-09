@@ -55,73 +55,9 @@
           </div>
               <!-- /.box-header -->
             <div class="box-body" style="display: block;">
-              <div class="row">
-              <div align="center">
-             <iframe width="900" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiYjU4OGUxZDEtZmEwZi00MGQ1LWIwMzctYjlkZTM0ZWVlYzAyIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
-             </div>
-              </div>
-            </div>
+              <iframe width="1040" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiYjU4OGUxZDEtZmEwZi00MGQ1LWIwMzctYjlkZTM0ZWVlYzAyIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+          </div>       
       </div>
-      <!------>
-
-        <div class="row">
-          <div class="col-md-6">
-            <!-- AREA CHART -->
-            <div class="box box-primary">
-              <div class="box-header with-border">
-                <h3 class="box-title">Count of Missing People By Region</h3>
-
-                <div class="box-tools pull-right">
-                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                </div>
-              </div>
-              <div class="box-body">
-             <img src="http://i1360.photobucket.com/albums/r656/Gail_Haboc/NDRRMC%20img/DeadandMissing/dm2_zpsrryfh3ri.png" height="400" width="450" />
-              </div>
-            </div>
-
-            <!-- DONUT CHART -->
-            <div class="box box-danger">
-              <div class="box-header with-border">
-                <h3 class="box-title">Average Age of Missing People by Gender</h3>
-
-                <div class="box-tools pull-right">
-                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                </div>
-              </div>
-              <div class="box-body">
-              <img src="http://i1360.photobucket.com/albums/r656/Gail_Haboc/NDRRMC%20img/DeadandMissing/dm_zpst2gxkwh8.png" height="400" width="400" />
-              </div>
-              <!-- /.box-body -->
-            </div>
-          </div>
-          <!-- /.col (LEFT) -->
-
-          <div class="col-md-6">
-            <!-- LINE CHART -->
-            <div class="box box-info">
-              <div class="box-header with-border">
-                <h3 class="box-title">Count of Dead People by Region</h3>
-
-                <div class="box-tools pull-right">
-                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                </div>
-              </div>
-              <div class="box-body">
-                <div class="chart">
-            <img src="http://i1360.photobucket.com/albums/r656/Gail_Haboc/NDRRMC%20img/DeadandMissing/dm3_zpsqpmjec06.png" height="400" width="550" />
-                </div>
-              </div>
-              <!-- /.box-body -->
-            </div>
-          </div>
-        </div>
     </section>
 
 

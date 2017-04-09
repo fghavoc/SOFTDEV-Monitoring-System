@@ -35,7 +35,7 @@ $this->title = 'Inventory';
   <section class="content">
     <div class="box">
       <div class="box-header">
-        <h3 class="box-title"></h3>
+        <h3 class="box-title">Inventory Dashboards</h3>
 
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -54,14 +54,9 @@ $this->title = 'Inventory';
              <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
           </div>
         </div>
-            <!-- /.box-header -->
-          <div class="box-body" style="display: block;">
-            <div class="row">
-            <div class ="graph" align="center">
-          <iframe width="100%" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiNDU1YzNiOTYtZTQ1OS00NWQyLTk0ZjAtNWZhMmQ1MjhiYzUwIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
-           </div>
-            </div>
-          </div>
+            <div class="box-body" style="display: block;">
+          <iframe width="1030" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiNDU1YzNiOTYtZTQ1OS00NWQyLTk0ZjAtNWZhMmQ1MjhiYzUwIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+
     </div>
     <!------>
     

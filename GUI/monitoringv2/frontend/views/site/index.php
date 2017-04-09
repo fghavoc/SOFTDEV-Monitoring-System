@@ -78,10 +78,12 @@ $this->title = 'Monitoring System';
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Camp Coordianation and Management</h4>
+          <h1 class="modal-title" align="center">Camp Coordianation and Management<img src="http://i1360.photobucket.com/albums/r656/Gail_Haboc/NDRRMC%20img/logo/ocd_zpswl70yupo.png" width="100" height="100" align="left" /></h1>
         </div>
         <div class="modal-body">
-          <p>Some text in the modal.</p>
+         <p align="justify" style="text-indent: 50px"> The Camp Coordination and Camp Management Cluster tracks and monitors displacement flows in all displacement sites in order to define caseloads, identify vulnerable groups, monitor and coordinate service provision in camps and advocate durable solutions for internally displaced people (IDPs). The CCCM Cluster, led by the Department of Social Welfare and Development (DSWD) and IOM, has been working closely with the Government at the national and municipal levels, and with clusters and local and global private-sector partners to ensure that multi-sectorial needs of the displaced are met in an adequate and timely manner. </p>
+
+         <p align="justify" style="align-content: right; font-size: 11px"> http://projects2.apc.edu.ph/wiki/index.php/Softdev_MI141/MI143_Camp_Coordination_and_Camp_Management_-_Response_Team</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -150,10 +152,12 @@ $this->title = 'Monitoring System';
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Food and Non-Food</h4>
+          <h1 class="modal-title" align="center">Food and Non-Food<img src="http://i1360.photobucket.com/albums/r656/Gail_Haboc/NDRRMC%20img/logo/ocd_zpswl70yupo.png" width="100" height="100" align="left" /></h1>
         </div>
         <div class="modal-body">
-          <p>Some text in the modal.</p>
+         <p align="justify" style="text-indent: 50px"> Disaster Response in Food and non-food items are very essential when it comes to saving lives. From the "Disaster Response: Supply Chain Management for response cluster" research done by the graduate students of Asia Pacific College, the project team come up with the system that will improve the current relief activities of agencies in order to have proper coordination and to carry out effective, efficient, and timely delivery of Food and non-food services to the affected families/communities. </p>
+
+         <p align="justify" style="align-content: right; font-size: 11px">http://projects2.apc.edu.ph/wiki/index.php/Softdev_MI141/MI143_Food_and_Non-Food_-_Response_Team</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -187,16 +191,17 @@ $this->title = 'Monitoring System';
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Logistics</h4>
-        </div>
+          <center><h1 class="modal-title" align="bottom-center">Logistics System
+          <img src="http://i1360.photobucket.com/albums/r656/Gail_Haboc/NDRRMC%20img/logo/ocd_zpswl70yupo.png" width="100" height="100" align="left" /></h1>
+        </center></div>
         <div class="modal-body">
           
-<p align="justify" style="text-indent: 50px"> Disasters are emergencies that cannot be handled by those affected without assistance. They are caused by natural or man-made events wherein communities experience severe danger and incur loss of lives and properties causing disruption to their social structure and to all or some of the affected communities’ essential functions. They are caused by unsustainable development that has not taken account of possible hazard impacts in that location.  They can be less damaging if there will be system that can help the management in faster administering and management of different resources.  </p>
+<p align="justify" style="text-indent: 50px"> Disasters are emergencies that cannot be handled by those affected without assistance. They are caused by natural or man-made events wherein communities experience severe danger and incur loss of lives and properties causing disruption to their social structure and to all or some of the affected communities’ essential functions. They are caused by unsustainable development that has not taken account of possible hazard impacts in that location. They can be less damaging if there will be system that can help the management in faster administering and management of different resources.  </p>
 
-<p align="justify" style="text-indent: 50px"> Now, in disaster, logistics is one of the most significant and complex component of the disaster operations whether if it is in preparedness, response or recovery phases. Logistics deliver the appropriate supplies in good condition, in the quantities required and at the places and time they are needed. So, logistics must be both agile and flexible in times of disaster and in preparing needed supplies. </p>
+<p align="justify" style="text-indent: 50px">Now, in disaster, logistics is one of the most significant and complex component of the disaster operations whether if it is in preparedness, response or recovery phases. Logistics deliver the appropriate supplies in good condition, in the quantities required and at the places and time they are needed. Thus, logistics must be both agile and flexible in times of disaster and in preparing needed supplies, equipment and transportations.</p>
 
-<p align="justify" style="text-indent: 50px"> Achieving those tasks of logistics is important because it can save and preserve millions and millions of lives in the disaster, and managing those are not easy and there is a need for a new, developed system that can handle those tasks and integrate different systems un users in just one click away.  </p>
-
+<p align="justify" style="text-indent: 50px">Achieving those tasks of logistics is important because it can save and preserve millions and millions of lives in the disaster, and managing those are not easy and there is a need for a new, developed system that can handle those tasks and integrate different systems users in just one click away. </p>
+<p align="justify" style="align-content: right; font-size: 11px"> http://projects2.apc.edu.ph/wiki/index.php/Softdev_MI141/MI143_Logistics_System_-_Preparedness</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -230,11 +235,16 @@ $this->title = 'Monitoring System';
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Inventory</h4>
+          <h1 class="modal-title" align="center">Inventory System<img src="http://i1360.photobucket.com/albums/r656/Gail_Haboc/NDRRMC%20img/logo/dswd_zpsxwpeg3em.jpg" width="100" height="100" align="left" />
+          </h1>
         </div>
         <div class="modal-body">
-          <p>Some text in the modal.</p>
-        </div>
+         <p align="justify" style="text-indent: 50px"> National Disaster Risk Reduction Management Commission (NDRRMC) is an agency that is assigned to prepare and respond to natural calamities and human-induced emergencies. NDRRMC’s budget shortage because of some government official are using this sector to corrupt people's money this agency where reduce a big chunk of budget, we also want to be part of this movement thru doing this project. We are able to design a prototype that provides a "comprehensive, all hazards, multi-sectoral, inter-agency and community-based approach to disaster risk reduction and management,". This framework was integrated into a National Disaster Risk Reduction Management Plan (NDRRMP). NDRRMP is a plan that covers two (2) core aspects: Disaster Prevention and Mitigation Disaster Preparedness</p>
+
+        <p align="justify" style="text-indent: 50px">National Disaster Risk Reduction Management Plan (NDRRMP) is guided by good governance principle within the context of poverty alleviation and environmental protection. NDRRMP is implemented by the Office of Civil Defence (OCD), under the Department of National Defence (DND).</p>
+
+        <p align="justify" style="align-content: right; font-size: 11px">http://projects2.apc.edu.ph/wiki/index.php/Softdev_MI141/MI143_Inventory_Management_-_Preparedness_Team</p>
+        </div>`
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
@@ -329,7 +339,7 @@ $this->title = 'Monitoring System';
                 <div class="col-sm-6">
                   <!-- Progress bars -->
                   <div class="clearfix">
-                    <span class="pull-left">Logistics First Delivery</span>
+                    <span class="pull-left">Delivery for Food and Non-Food</span>
                     <small class="pull-right">90%</small>
                   </div>
                   <div class="progress xs">
@@ -337,7 +347,7 @@ $this->title = 'Monitoring System';
                   </div>
 
                   <div class="clearfix">
-                    <span class="pull-left">Task #2</span>
+                    <span class="pull-left">Logistics First Delivery</span>
                     <small class="pull-right">70%</small>
                   </div>
                   <div class="progress xs">
@@ -347,7 +357,7 @@ $this->title = 'Monitoring System';
                 <!-- /.col -->
                 <div class="col-sm-6">
                   <div class="clearfix">
-                    <span class="pull-left">Task #3</span>
+                    <span class="pull-left">Logistics Second Delivery</span>
                     <small class="pull-right">60%</small>
                   </div>
                   <div class="progress xs">
@@ -355,7 +365,7 @@ $this->title = 'Monitoring System';
                   </div>
 
                   <div class="clearfix">
-                    <span class="pull-left">Task #4</span>
+                    <span class="pull-left">Logistics Third Delivery</span>
                     <small class="pull-right">40%</small>
                   </div>
                   <div class="progress xs">

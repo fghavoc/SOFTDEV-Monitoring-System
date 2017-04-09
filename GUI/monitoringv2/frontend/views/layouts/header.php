@@ -62,7 +62,7 @@ use yii\helpers\Html;
                 </li>
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="<?= $directoryAsset ?>/img/avatar3.png" class="user-image" alt="User Image"/>
+                        <img src="<?= $directoryAsset ?>/img/avatar2.png" class="user-image" alt="User Image"/>
                         <?php echo
                              '<span class="hidden-xs">'.Yii::$app->user->identity->username.' </span>'
                         ?>
@@ -70,7 +70,7 @@ use yii\helpers\Html;
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header">
-                            <img src="<?= $directoryAsset ?>/img/avatar3.jpg" class="img-circle"
+                            <img src="<?= $directoryAsset ?>/img/avatar2.png" class="img-circle"
                                  alt="User Image"/>
                             <?php echo
                              '<p>'.Yii::$app->user->identity->username.' <br>

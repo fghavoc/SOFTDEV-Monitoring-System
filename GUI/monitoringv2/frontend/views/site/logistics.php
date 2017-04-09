@@ -11,7 +11,7 @@ $this->title = 'Logistics';
     <section class="content">
     <div class="box">
       <div class="box-header with-border">
-        <h3 class="box-title"></h3>
+        <h3 class="box-title"> Warehouse by Region</h3>
 
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -29,15 +29,9 @@ $this->title = 'Logistics';
             </div>
              <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
           </div>
-        </div>
-            <!-- /.box-header -->
-          <div class="box-body" style="display: block;">
-            <div class="row">
-            <div class ="graph" align="center">
-<iframe width="1000" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMGY0NjA2OTEtYjdjNy00YzM1LWEzMWEtZDIxNzI1YzRhMTJjIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
-           </div>
-            </div>
-          </div>
+              <center><iframe width="1040" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMGY0NjA2OTEtYjdjNy00YzM1LWEzMWEtZDIxNzI1YzRhMTJjIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe></center>
+        </div>        
+        
     </div>
 
   </section>

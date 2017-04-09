@@ -35,7 +35,7 @@ $this->title = 'Camp Management';
   <section class="content">
     <div class="box">
       <div class="box-header with-border">
-        <h3 class="box-title">Evacuation Centers by Region</h3>
+        <h3 class="box-title">Evacuation Centers per Province</h3>
 
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -56,16 +56,10 @@ $this->title = 'Camp Management';
         </div>
             <!-- /.box-header -->
           <div class="box-body" style="display: block;">
-            <div class="row">
-            <div class ="graph" align="center">
-          <iframe width="950" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiM2UzOWVkNjItZTRiNC00NDA1LWFkZjYtMTY3NTFkY2VlMDFiIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
-           </div>
-            </div>
+          <iframe width="1030" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiM2UzOWVkNjItZTRiNC00NDA1LWFkZjYtMTY3NTFkY2VlMDFiIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
           </div>
     </div>
     <!------>
-    <center>
-    <div style="width: 100%"><iframe width="100%" height="600" src="http://www.mapi.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/fr/mesurer-distance-surface-google-maps.html">google distance entre deux villes</a> en <a href="http://www.mapsdirections.info/fr/">www.mapsdirections.info/fr/</a></iframe></div></center><br />
   </section>
 
 

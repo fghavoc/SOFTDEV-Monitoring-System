@@ -40999,3 +40999,197 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1490780537.845
     'REQUEST_TIME' => 1490780537
 ]
+2017-03-31 08:23:36 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\header.php:67
+Stack trace:
+#0 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\header.php(67): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\Users\\Aira J...', 67, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Aira J...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\Aira J...', Array, NULL)
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\main.php(45): yii\base\View->render('header.php', Array)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Aira J...')
+#6 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Aira J...', Array)
+#7 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(393): yii\base\View->renderFile('C:\\Users\\Aira J...', Array, Object(frontend\controllers\SiteController))
+#8 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#9 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#10 [internal function]: frontend\controllers\SiteController->actionIndex()
+#11 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#14 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('', Array)
+#15 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2017-03-31 08:23:36 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '51240'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490941416.296
+    'REQUEST_TIME' => 1490941416
+]
+2017-04-09 02:50:14 [::1][-][e25g6jbuhs1m1s71lrvnqhmta6][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Connection.php:603
+Stack trace:
+#0 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Connection.php(603): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Connection.php(545): yii\db\Connection->createPdoInstance()
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#6 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#8 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one(NULL)
+#9 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\common\models\User.php(64): yii\db\BaseActiveRecord::findOne(Array)
+#11 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\web\User.php(665): common\models\User::findIdentity(1)
+#12 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#13 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Component.php(130): yii\web\User->getIdentity()
+#14 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\header.php(67): yii\base\Component->__get('identity')
+#15 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Aira J...')
+#16 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Aira J...', '[<span class="s...')
+#17 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\Aira J...', Array, NULL)
+#18 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\main.php(45): yii\base\View->render('header.php', Array)
+#19 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Aira J...')
+#20 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Aira J...', '[<span class="s...')
+#21 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(393): yii\base\View->renderFile('C:\\Users\\Aira J...', Array, Object(frontend\controllers\SiteController))
+#22 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#23 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\controllers\SiteController.php(225): yii\base\Controller->render('lawOrder')
+#24 [internal function]: frontend\controllers\SiteController->actionLaworder()
+#25 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#26 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#27 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('laworder', Array)
+#28 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/laworder', Array)
+#29 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\web\index.php(18): yii\base\Application->run()
+#31 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Connection.php:550
+Stack trace:
+#0 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Connection->open()
+#1 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Connection.php(851): yii\db\Connection->getMasterPdo()
+#2 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#4 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#5 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#6 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one(NULL)
+#7 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#8 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\common\models\User.php(64): yii\db\BaseActiveRecord::findOne(Array)
+#9 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\web\User.php(665): common\models\User::findIdentity(1)
+#10 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#11 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Component.php(130): yii\web\User->getIdentity()
+#12 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\header.php(67): yii\base\Component->__get('identity')
+#13 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Aira J...')
+#14 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Aira J...', '[<span class="s...')
+#15 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\Aira J...', Array, NULL)
+#16 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\views\layouts\main.php(45): yii\base\View->render('header.php', Array)
+#17 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Aira J...')
+#18 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Aira J...', '[<span class="s...')
+#19 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(393): yii\base\View->renderFile('C:\\Users\\Aira J...', Array, Object(frontend\controllers\SiteController))
+#20 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#21 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\controllers\SiteController.php(225): yii\base\Controller->render('lawOrder')
+#22 [internal function]: frontend\controllers\SiteController->actionLaworder()
+#23 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('laworder', Array)
+#26 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/laworder', Array)
+#27 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\Aira Joyce\Documents\AIRA\SOFTDEV-Monitoring-System\GUI\monitoringv2\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+Additional Information:
+
+2017-04-09 02:50:12 [::1][-][e25g6jbuhs1m1s71lrvnqhmta6][info][application] $_GET = [
+    'r' => 'site/laworder'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'e25g6jbuhs1m1s71lrvnqhmta6'
+    '_csrf-frontend' => 'bf0a3909d606e2d5d5aa4bfac5d3487eadb54fa20b38759c95881d58473f0d00a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"LJT6RzyzXwTl2sCJUMtKHOf1T3mw4_fa\";}'
+    '_identity-frontend' => '90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"2lktOPdxHGNPychuk9lZoQF7QUB2-Udg\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=e25g6jbuhs1m1s71lrvnqhmta6; _csrf-frontend=bf0a3909d606e2d5d5aa4bfac5d3487eadb54fa20b38759c95881d58473f0d00a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22LJT6RzyzXwTl2sCJUMtKHOf1T3mw4_fa%22%3B%7D; _identity-frontend=90db0b9fa059ffaf286bb75a5c280713ee015b48466141ba73f826ff73f21950a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222lktOPdxHGNPychuk9lZoQF7QUB2-Udg%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\iis express\\PHP\\v7.0;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\mongodb\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Others/monitoringv2/frontend/web/index.php'
+    'REMOTE_PORT' => '61154'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flaworder'
+    'REQUEST_URI' => '/others/monitoringv2/frontend/web/index.php?r=site%2Flaworder'
+    'SCRIPT_NAME' => '/others/monitoringv2/frontend/web/index.php'
+    'PHP_SELF' => '/others/monitoringv2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491699012.349
+    'REQUEST_TIME' => 1491699012
+]

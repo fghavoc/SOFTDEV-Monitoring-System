@@ -11,7 +11,7 @@ $this->title = 'Procurement';
     <section class="content">
     <div class="box">
       <div class="box-header with-border">
-        <h3 class="box-title"></h3>
+        <h3 class="box-title">Procurement Dashboard</h3>
 
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -32,11 +32,7 @@ $this->title = 'Procurement';
         </div>
             <!-- /.box-header -->
           <div class="box-body" style="display: block;">
-            <div class="row">
-            <div class ="graph" align="center">
-<iframe width="100%" height="700"src="https://app.powerbi.com/view?r=eyJrIjoiNjExOGM4MTgtYjk0Ny00Zjg0LWE3YTMtMWU1OGRiMDlmNzZhIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
-           </div>
-            </div>
+          <iframe width="1030" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiNjExOGM4MTgtYjk0Ny00Zjg0LWE3YTMtMWU1OGRiMDlmNzZhIiwidCI6ImFlYjc0NWU2LTgxNjYtNGY4Zi05MjMzLTE3OWU4MTA5YzQ5ZSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
           </div>
     </div>
 
